@@ -1,17 +1,17 @@
 {
-  "name": "sᴛʀᴀɴɢᴇʀ ʜᴇʟʟʙᴏᴛ",
+  "name": "ʜᴇʟʟʙᴏᴛ",
   "description": "One of the best Userbot for Telegram. Known for its Smoothness, Design, Support.",
-  "logo": "https://telegra.ph/file/0e33316eef4e4fc23bd1c.png",
+  "logo": "https://files.catbox.moe/50q73b.jpg",
   "keywords": [
     "telegram",
     "userbot",
     "plugin",
     "telethon",
-    "stranger",
+    "karma",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/itzshukla/STRANGER-HELLBOT/",
+  "repository": "https://github.com/karmaxexclusive/HELLBOT/",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -36,7 +36,7 @@
     },
     "HELLBOT_SESSION": {
       "description": "Get this value by using repl or termux. Refer to Repo for more info.",
-      "value": "OWNER KO DM KAR LO BHAI @SHIVANSH39"
+      "value": "OWNER KO DM KAR LO BHAI @FUMKIES"
     },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API. Required for updater to work.",

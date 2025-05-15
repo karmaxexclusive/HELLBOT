@@ -22,14 +22,14 @@ _library () {
 _starter () {
     local hellpath
     hellpath="Plugins.zip"
-    echo "••• DOWNLOADING STRANGERBOTZ •••"
+    echo "••• DOWNLOADING HELLBOTZ •••"
     wget -q $(_hell_zip) -O "$hellpath"
     HELLPATH=$(zipinfo -1 "$hellpath" | grep -v "/.");
     unzip -qq "$hellpath"
     rm -rf "$hellpath"
     cd $HELLPATH
     python3 ../updater.py ../requirements.txt requirements.txt
-    echo "••• STARTING STRANGERBOTZ BABY •••"
+    echo "••• STARTING HELLBOTZ BABY •••"
     _library
 }
 
